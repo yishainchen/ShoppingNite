@@ -50,7 +50,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -95,6 +95,9 @@
                                 <state key="normal" image="btn_hot_normal"/>
                                 <state key="selected" image="btn_hot_selected"/>
                                 <state key="highlighted" image="btn_hot_selected"/>
+                                <connections>
+                                    <action selector="hotProduct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GaR-aj-BUb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mfk-Dq-L1F">
                                 <rect key="frame" x="83" y="66" width="80" height="39"/>
@@ -103,6 +106,9 @@
                                 <state key="normal" image="btn_sale_normal"/>
                                 <state key="selected" image="btn_sale_selected"/>
                                 <state key="highlighted" image="btn_sale_selected"/>
+                                <connections>
+                                    <action selector="couponProduct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZK-6u-X2R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NOi-oJ-4AI">
                                 <rect key="frame" x="162" y="66" width="79" height="39"/>
@@ -111,6 +117,9 @@
                                 <state key="normal" image="btn_new_normal"/>
                                 <state key="selected" image="btn_new_selected"/>
                                 <state key="highlighted" image="btn_new_selected"/>
+                                <connections>
+                                    <action selector="LatestProduct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvb-bR-yCM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fcC-qA-qHO">
                                 <rect key="frame" x="239" y="66" width="81" height="39"/>
@@ -119,6 +128,9 @@
                                 <state key="normal" image="btn_activity_normal"/>
                                 <state key="selected" image="btn_activity_selected"/>
                                 <state key="highlighted" image="btn_activity_selected"/>
+                                <connections>
+                                    <action selector="latestAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xgm-U3-3NP"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="vVk-4y-zng">
                                 <rect key="frame" x="0.0" y="106" width="320" height="413"/>
@@ -143,6 +155,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <state key="normal" image="btn_favorite_disabled"/>
+                                                    <state key="disabled" image="btn_favorite_disabled"/>
                                                     <state key="selected" image="btn_favorite_selected"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vyf-Nj-1Vd">
@@ -150,7 +163,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="meN-xi-Hjt">
@@ -158,7 +171,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>

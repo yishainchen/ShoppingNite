@@ -16,6 +16,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *LatestProduct;
 @property (weak, nonatomic) IBOutlet UIButton *latestActive;
 
-@property (weak, nonatomic) IBOutlet UIButton *menuBtn;
+
 @end
 

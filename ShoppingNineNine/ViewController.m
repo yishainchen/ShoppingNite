@@ -40,6 +40,7 @@
    
 
     self.hotProduct.selected = YES;
+    
     [self getdata];
 
 }
@@ -118,4 +119,36 @@
           }];
 }
 
+- (IBAction)hotProduct:(UIButton *)sender {
+  sender.selected=!sender.selected;
+    if (self.hotProduct.selected == YES) {
+        self.couponProduct.selected = NO;
+        self.latestActive.selected = NO;
+        self.LatestProduct.selected = NO;
+    }
+}
+- (IBAction)couponProduct:(UIButton *)sender {
+    sender.selected=!sender.selected;
+    if (self.couponProduct.selected == YES) {
+        self.latestActive.selected = NO;
+        self.LatestProduct.selected = NO;
+        self.hotProduct.selected = NO;
+    }
+}
+- (IBAction)LatestProduct:(UIButton *)sender {
+    sender.selected=!sender.selected;
+    if (self.LatestProduct.selected == YES) {
+        self.latestActive.selected = NO;
+        self.hotProduct.selected = NO;
+        self.couponProduct.selected = NO;
+    }
+}
+- (IBAction)latestAction:(UIButton *)sender {
+    sender.selected=!sender.selected;
+    if (self.latestActive.selected == YES) {
+        self.hotProduct.selected = NO;
+        self.couponProduct.selected = NO;
+        self.LatestProduct.selected =NO;
+    }
+}
 @end
