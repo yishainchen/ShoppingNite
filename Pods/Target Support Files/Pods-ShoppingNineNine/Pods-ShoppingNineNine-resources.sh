@@ -59,9 +59,13 @@ install_resource()
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"
+  install_resource "iOS-Slide-Menu/SlideMenu/Source/Assets/menu-button.png"
+  install_resource "iOS-Slide-Menu/SlideMenu/Source/Assets/menu-button@2x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"
+  install_resource "iOS-Slide-Menu/SlideMenu/Source/Assets/menu-button.png"
+  install_resource "iOS-Slide-Menu/SlideMenu/Source/Assets/menu-button@2x.png"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

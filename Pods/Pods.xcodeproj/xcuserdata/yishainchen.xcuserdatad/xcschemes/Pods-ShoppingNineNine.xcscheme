@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "962C0845293900E41A9A7949"
+               BlueprintIdentifier = "70CD0D609D47794DF667A003"
                BuildableName = "libPods-ShoppingNineNine.a"
                BlueprintName = "Pods-ShoppingNineNine"
                ReferencedContainer = "container:Pods.xcodeproj">

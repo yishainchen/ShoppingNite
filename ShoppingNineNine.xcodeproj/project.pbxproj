@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		08510D9A5A413D2BC2FC32D1 /* libPods-ShoppingNineNine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9117BC7AAE38C9AEE4A6FD /* libPods-ShoppingNineNine.a */; };
+		221221ED1BDDD0C100C5DFA7 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E11BDDD0C100C5DFA7 /* LeftMenuViewController.m */; };
+		221221EE1BDDD0C100C5DFA7 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E31BDDD0C100C5DFA7 /* RightMenuViewController.m */; };
+		221221EF1BDDD0C100C5DFA7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E51BDDD0C100C5DFA7 /* HomeViewController.m */; };
+		221221F01BDDD0C100C5DFA7 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E71BDDD0C100C5DFA7 /* FriendsViewController.m */; };
+		221221F11BDDD0C100C5DFA7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E91BDDD0C100C5DFA7 /* ProfileViewController.m */; };
+		221221F21BDDD0C100C5DFA7 /* ProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221EB1BDDD0C100C5DFA7 /* ProfileDetailViewController.m */; };
+		22B171D31BDD2BB600F55A68 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B171D21BDD2BB600F55A68 /* MenuViewController.m */; };
 		22D03EF61BDBBE7800619656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EF51BDBBE7800619656 /* main.m */; };
 		22D03EF91BDBBE7800619656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EF81BDBBE7800619656 /* AppDelegate.m */; };
 		22D03EFC1BDBBE7800619656 /* ShoppingNineNine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EFA1BDBBE7800619656 /* ShoppingNineNine.xcdatamodeld */; };
@@ -16,6 +23,7 @@
 		22D03F041BDBBE7800619656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D03F031BDBBE7800619656 /* Images.xcassets */; };
 		22D03F071BDBBE7800619656 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D03F051BDBBE7800619656 /* LaunchScreen.xib */; };
 		22D03F131BDBBE7800619656 /* ShoppingNineNineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03F121BDBBE7800619656 /* ShoppingNineNineTests.m */; };
+		22F0E6BD1BDC08DC006AD6A7 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E6BC1BDC08DC006AD6A7 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221221E01BDDD0C100C5DFA7 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		221221E11BDDD0C100C5DFA7 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		221221E21BDDD0C100C5DFA7 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
+		221221E31BDDD0C100C5DFA7 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
+		221221E41BDDD0C100C5DFA7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		221221E51BDDD0C100C5DFA7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		221221E61BDDD0C100C5DFA7 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		221221E71BDDD0C100C5DFA7 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		221221E81BDDD0C100C5DFA7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		221221E91BDDD0C100C5DFA7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		221221EA1BDDD0C100C5DFA7 /* ProfileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDetailViewController.h; sourceTree = "<group>"; };
+		221221EB1BDDD0C100C5DFA7 /* ProfileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDetailViewController.m; sourceTree = "<group>"; };
+		22B171D11BDD2BB600F55A68 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
+		22B171D21BDD2BB600F55A68 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
 		22D03EF01BDBBE7800619656 /* ShoppingNineNine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingNineNine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D03EF41BDBBE7800619656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22D03EF51BDBBE7800619656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +65,8 @@
 		22D03F0C1BDBBE7800619656 /* ShoppingNineNineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingNineNineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D03F111BDBBE7800619656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22D03F121BDBBE7800619656 /* ShoppingNineNineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingNineNineTests.m; sourceTree = "<group>"; };
+		22F0E6BB1BDC08DC006AD6A7 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ../SearchViewController.h; sourceTree = "<group>"; };
+		22F0E6BC1BDC08DC006AD6A7 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ../SearchViewController.m; sourceTree = "<group>"; };
 		5C9117BC7AAE38C9AEE4A6FD /* libPods-ShoppingNineNine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppingNineNine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2225D5B6AC96C356478BA3F /* Pods-ShoppingNineNine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingNineNine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingNineNine/Pods-ShoppingNineNine.debug.xcconfig"; sourceTree = "<group>"; };
 		C651C6B3FA47D7DC8B0ED203 /* Pods-ShoppingNineNine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingNineNine.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingNineNine/Pods-ShoppingNineNine.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,9 +99,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		221221EC1BDDD0C100C5DFA7 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				221221E01BDDD0C100C5DFA7 /* LeftMenuViewController.h */,
+				221221E11BDDD0C100C5DFA7 /* LeftMenuViewController.m */,
+				221221E21BDDD0C100C5DFA7 /* RightMenuViewController.h */,
+				221221E31BDDD0C100C5DFA7 /* RightMenuViewController.m */,
+				221221E41BDDD0C100C5DFA7 /* HomeViewController.h */,
+				221221E51BDDD0C100C5DFA7 /* HomeViewController.m */,
+				221221E61BDDD0C100C5DFA7 /* FriendsViewController.h */,
+				221221E71BDDD0C100C5DFA7 /* FriendsViewController.m */,
+				221221E81BDDD0C100C5DFA7 /* ProfileViewController.h */,
+				221221E91BDDD0C100C5DFA7 /* ProfileViewController.m */,
+				221221EA1BDDD0C100C5DFA7 /* ProfileDetailViewController.h */,
+				221221EB1BDDD0C100C5DFA7 /* ProfileDetailViewController.m */,
+			);
+			name = "Helper Classes";
+			path = "../../Downloads/iOS-Slide-Menu-master/SlideMenu/Helper Classes";
+			sourceTree = "<group>";
+		};
 		22D03EE71BDBBE7800619656 = {
 			isa = PBXGroup;
 			children = (
+				221221EC1BDDD0C100C5DFA7 /* Helper Classes */,
 				22D03EF21BDBBE7800619656 /* ShoppingNineNine */,
 				22D03F0F1BDBBE7800619656 /* ShoppingNineNineTests */,
 				22D03EF11BDBBE7800619656 /* Products */,
@@ -102,6 +147,10 @@
 				22D03EF81BDBBE7800619656 /* AppDelegate.m */,
 				22D03EFD1BDBBE7800619656 /* ViewController.h */,
 				22D03EFE1BDBBE7800619656 /* ViewController.m */,
+				22F0E6BB1BDC08DC006AD6A7 /* SearchViewController.h */,
+				22F0E6BC1BDC08DC006AD6A7 /* SearchViewController.m */,
+				22B171D11BDD2BB600F55A68 /* MenuViewController.h */,
+				22B171D21BDD2BB600F55A68 /* MenuViewController.m */,
 				22D03F001BDBBE7800619656 /* Main.storyboard */,
 				22D03F031BDBBE7800619656 /* Images.xcassets */,
 				22D03F051BDBBE7800619656 /* LaunchScreen.xib */,
@@ -281,9 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221221F01BDDD0C100C5DFA7 /* FriendsViewController.m in Sources */,
 				22D03EFC1BDBBE7800619656 /* ShoppingNineNine.xcdatamodeld in Sources */,
+				22B171D31BDD2BB600F55A68 /* MenuViewController.m in Sources */,
+				221221F21BDDD0C100C5DFA7 /* ProfileDetailViewController.m in Sources */,
 				22D03EF91BDBBE7800619656 /* AppDelegate.m in Sources */,
+				22F0E6BD1BDC08DC006AD6A7 /* SearchViewController.m in Sources */,
+				221221ED1BDDD0C100C5DFA7 /* LeftMenuViewController.m in Sources */,
+				221221EF1BDDD0C100C5DFA7 /* HomeViewController.m in Sources */,
 				22D03EFF1BDBBE7800619656 /* ViewController.m in Sources */,
+				221221F11BDDD0C100C5DFA7 /* ProfileViewController.m in Sources */,
+				221221EE1BDDD0C100C5DFA7 /* RightMenuViewController.m in Sources */,
 				22D03EF61BDBBE7800619656 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

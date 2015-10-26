@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>087B79B9-6DFC-48E4-A3E8-4506C95AC6D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShoppingNineNine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D8FE95EE1F73743EC959A43DA327D5866ED7D9C8</key>
+		<string>github.com:yishainchen/ShoppingNite.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShoppingNineNine.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D8FE95EE1F73743EC959A43DA327D5866ED7D9C8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:yishainchen/ShoppingNite.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D8FE95EE1F73743EC959A43DA327D5866ED7D9C8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D8FE95EE1F73743EC959A43DA327D5866ED7D9C8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ShoppingNineNine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

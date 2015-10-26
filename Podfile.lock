@@ -40,6 +40,8 @@ PODS:
   - FBSDKShareKit (4.7.0):
     - FBSDKCoreKit
   - GoogleMaps (1.10.4)
+  - iOS-Slide-Menu (1.5)
+  - MSDynamicsDrawerViewController (1.5.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
@@ -47,6 +49,8 @@ DEPENDENCIES:
   - FBSDKLoginKit
   - FBSDKShareKit
   - GoogleMaps
+  - iOS-Slide-Menu
+  - MSDynamicsDrawerViewController
 
 SPEC CHECKSUMS:
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
@@ -55,5 +59,7 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 028c5a205990441123764609fe795e65027c447f
   FBSDKShareKit: 1f927bb05e4d36a99d5d5bf2f4b1ff294ce3e15c
   GoogleMaps: 134bcf57e8d489efbc0c29d532ed421554fabdb2
+  iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  MSDynamicsDrawerViewController: 2874df90f5e9453dc7d4e32f8038b50615d4baa7
 
 COCOAPODS: 0.38.2

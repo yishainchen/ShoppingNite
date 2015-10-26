@@ -29,13 +29,64 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MSDynamicsDrawerViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ShoppingNineNine.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>iOS-Slide-Menu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>01C8647DD33AEB6D8706D1A9DB17FA18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>333A06BD5B983A76E88778135B352358</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>758D086C5048A752AD7EC581D573CE02</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7650EFFEDFF1EFF5B9F3B61FC4297245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EC8010C49C52BE6D9F04B430E8AEC01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>99A4EEC39C57AE0F95654146F7FB32D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B161F30CE790D5866B9C52339A5FE0FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1CDB10593DE01D5215EB27E995CE8EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
