@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		08510D9A5A413D2BC2FC32D1 /* libPods-ShoppingNineNine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9117BC7AAE38C9AEE4A6FD /* libPods-ShoppingNineNine.a */; };
 		221221FC1BDE062100C5DFA7 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221FB1BDE062100C5DFA7 /* Singleton.m */; };
-		221221FF1BDE3DAE00C5DFA7 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221FE1BDE3DAE00C5DFA7 /* FavoriteViewController.m */; };
+		221222051BDE46C400C5DFA7 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221222041BDE46C400C5DFA7 /* FavoriteViewController.m */; };
 		22B171D31BDD2BB600F55A68 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B171D21BDD2BB600F55A68 /* MenuViewController.m */; };
 		22D03EF61BDBBE7800619656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EF51BDBBE7800619656 /* main.m */; };
 		22D03EF91BDBBE7800619656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EF81BDBBE7800619656 /* AppDelegate.m */; };
@@ -35,8 +35,8 @@
 /* Begin PBXFileReference section */
 		221221FA1BDE062100C5DFA7 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		221221FB1BDE062100C5DFA7 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
-		221221FD1BDE3DAE00C5DFA7 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
-		221221FE1BDE3DAE00C5DFA7 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		221222031BDE46C400C5DFA7 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		221222041BDE46C400C5DFA7 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 		22B171D11BDD2BB600F55A68 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
 		22B171D21BDD2BB600F55A68 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
 		22D03EF01BDBBE7800619656 /* ShoppingNineNine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingNineNine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +90,8 @@
 		22D03EE71BDBBE7800619656 = {
 			isa = PBXGroup;
 			children = (
-				221221FD1BDE3DAE00C5DFA7 /* FavoriteViewController.h */,
-				221221FE1BDE3DAE00C5DFA7 /* FavoriteViewController.m */,
+				221222031BDE46C400C5DFA7 /* FavoriteViewController.h */,
+				221222041BDE46C400C5DFA7 /* FavoriteViewController.m */,
 				221221FA1BDE062100C5DFA7 /* Singleton.h */,
 				221221FB1BDE062100C5DFA7 /* Singleton.m */,
 				22D03EF21BDBBE7800619656 /* ShoppingNineNine */,
@@ -303,7 +303,7 @@
 			files = (
 				221221FC1BDE062100C5DFA7 /* Singleton.m in Sources */,
 				22D03EFC1BDBBE7800619656 /* ShoppingNineNine.xcdatamodeld in Sources */,
-				221221FF1BDE3DAE00C5DFA7 /* FavoriteViewController.m in Sources */,
+				221222051BDE46C400C5DFA7 /* FavoriteViewController.m in Sources */,
 				22B171D31BDD2BB600F55A68 /* MenuViewController.m in Sources */,
 				22D03EF91BDBBE7800619656 /* AppDelegate.m in Sources */,
 				22F0E6BD1BDC08DC006AD6A7 /* SearchViewController.m in Sources */,

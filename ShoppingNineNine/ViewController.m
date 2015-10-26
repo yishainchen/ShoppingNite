@@ -32,13 +32,19 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:
      UIBarMetricsDefault];
     
-  
-    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]];
+   
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]
+                                       forBarMetrics:UIBarMetricsDefault];
     
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]];
+   
+
     self.hotProduct.selected = YES;
     [self getdata];
 
 }
+
+
 
 
 - (void)didReceiveMemoryWarning {
