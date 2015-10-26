@@ -1,29 +1,27 @@
 //
-//  MenuViewController.m
+//  FavoriteViewController.m
 //  ShoppingNineNine
 //
-//  Created by yishain chen on 2015/10/25.
+//  Created by yishain chen on 2015/10/26.
 //  Copyright © 2015年 yishain chen. All rights reserved.
 //
 
-#import "MenuViewController.h"
+#import "FavoriteViewController.h"
 
-@interface MenuViewController ()
+@interface FavoriteViewController ()
 
 @end
 
-@implementation MenuViewController
+@implementation FavoriteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-     menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,24 +32,24 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+#warning Incomplete implementation, return the number of sections
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return 16
-    ;
+#warning Incomplete implementation, return the number of rows
+    return 0;
 }
 
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    
-//    static NSString *CellIdentifier = @"myCell";
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-//    
-//    return cell;
-//}
-
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+*/
 
 /*
 // Override to support conditional editing of the table view.

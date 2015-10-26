@@ -7,14 +7,17 @@
 //
 
 #import "ViewController.h"
-#import "LeftMenuViewController.h"
 #import <SlideNavigationController.h>
 #import <AFNetworking/AFNetworking.h>
+#import "MenuViewController.h"
 
 @interface ViewController () <SlideNavigationControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 {
     NSString *urlString;
-
+    UILabel *introLabel;
+    UILabel *priceLabel;
+    UIImageView *imgPic;
+    
 }
 
 @end
@@ -25,12 +28,18 @@
     [super viewDidLoad];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:UIBarMetricsDefault];
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:
+     UIBarMetricsDefault];
+    
+  
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]];
-
+    
     self.hotProduct.selected = YES;
+    [self getdata];
 
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -65,12 +74,22 @@
         
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
+    //tag UI
+    introLabel = (UILabel *)[cell viewWithTag:1];
+    introLabel.tag = indexPath.row ;
+    
+    priceLabel = (UILabel *)[cell viewWithTag:2];
+    priceLabel.tag = indexPath.row ;
+    
+    imgPic = (UIImageView *)[cell viewWithTag:3];
+    imgPic.tag = indexPath.row ;
+    
     return cell;
 }
 
 -(void)getdata {
     if (self.hotProduct.selected == YES) {
-        urlString = @"";
+        urlString = @"http://app.shopping99.com/auth/authAccess.jsp?authKey=e586e8c9a21f33331a3c2b842d16b3e5";
     }
     else if(self.LatestProduct.selected == YES) {
         urlString = @"";
@@ -84,7 +103,7 @@
     
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager POST:urlString parameters:nil
+    [manager POST:@"http://app.shopping99.com/auth/authAccess.jsp?authKey=e586e8c9a21f33331a3c2b842d16b3e5" parameters:@"authKey=e586e8c9a21f33331a3c2b842d16b3e5"
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
               NSLog(@"success");
               NSLog(@"response: %@", responseObject);

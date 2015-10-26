@@ -2,6 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+<key>NSAppTransportSecurity</key>
+<dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <false/>
+       <key>NSExceptionDomains</key>
+       <dict>
+            <key>http://app.shopping99.com/auth/authAccess.jsp?authKey=e586e8c9a21f33331a3c2b842d16b3e5</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSTemporaryExceptionMinimumTLSVersion</key>
+                <string>TLSv1.1</string>
+            </dict>
+       </dict>
+</dict>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -20,5 +39,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+
+
 </dict>
+
 </plist>
