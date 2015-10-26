@@ -21,31 +21,6 @@
                                     <navigationItem id="jeu-9s-yJs"/>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" id="WlX-B6-Ayt">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="btn_spa_normal" selectedImage="btn_spa_selected" id="lNU-OE-QQm">
-                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="btn_pretty_normal" selectedImage="btn_pretty_selected" id="DwD-v8-DID">
-                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="btn_life_normal" selectedImage="btn_life_selected" id="phn-Dd-mlV">
-                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="btn_fashion_normal" selectedImage="btn_fashion_selected" id="VFf-RY-uYn">
-                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="btn_woman_normal" selectedImage="btn_woman_selected" id="rxa-8s-q8u">
-                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                </items>
-                            </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ahQ-cg-ycC">
                                 <rect key="frame" x="14" y="33" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -118,7 +93,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="121.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="UQ8-DE-9HN">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iv_lobn680" id="UQ8-DE-9HN">
                                                     <rect key="frame" x="19" y="4" width="187" height="109.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
@@ -153,6 +128,31 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <tabBar contentMode="scaleToFill" id="WlX-B6-Ayt">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="" image="btn_spa_normal" selectedImage="btn_spa_selected" id="lNU-OE-QQm">
+                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="" image="btn_pretty_normal" selectedImage="btn_pretty_selected" id="DwD-v8-DID">
+                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="" image="btn_life_normal" selectedImage="btn_life_selected" id="phn-Dd-mlV">
+                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="" image="btn_fashion_normal" selectedImage="btn_fashion_selected" id="VFf-RY-uYn">
+                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="" image="btn_woman_normal" selectedImage="btn_woman_selected" id="rxa-8s-q8u">
+                                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                    </tabBarItem>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -163,8 +163,6 @@
                         <outlet property="couponProduct" destination="mfk-Dq-L1F" id="HKv-Iu-lcn"/>
                         <outlet property="hotProduct" destination="lgh-JR-HiS" id="bX7-Dg-iNV"/>
                         <outlet property="latestActive" destination="fcC-qA-qHO" id="Pu9-fW-X38"/>
-                        <outlet property="newProduce" destination="NOi-oJ-4AI" id="hxB-QA-GbY"/>
-                        <outlet property="newProduct" destination="NOi-oJ-4AI" id="ZQ0-UJ-lyx"/>
                         <outlet property="searchDisplayController" destination="9JD-QD-gnp" id="zbk-s8-gTF"/>
                         <outlet property="tableView" destination="vVk-4y-zng" id="6Zq-wm-mCI"/>
                     </connections>
@@ -321,22 +319,6 @@
             </objects>
             <point key="canvasLocation" x="604" y="1007"/>
         </scene>
-        <!--Slide Navigation Controller-->
-        <scene sceneID="Qo0-8D-eFL">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Skc-wO-r78" customClass="SlideNavigationController" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RH2-Go-h4d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aQ2-dH-vc0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="206" y="232"/>
-        </scene>
     </scenes>
     <resources>
         <image name="btn_activity_normal" width="90" height="39"/>
@@ -363,5 +345,6 @@
         <image name="btn_woman_selected" width="47" height="47"/>
         <image name="ic_sh99big" width="244" height="54"/>
         <image name="iv_favorite" width="32" height="32"/>
+        <image name="iv_lobn680" width="226" height="121"/>
     </resources>
 </document>

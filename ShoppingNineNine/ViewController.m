@@ -7,13 +7,15 @@
 //
 
 #import "ViewController.h"
-#import "SlideNavigationController.h"
 #import "LeftMenuViewController.h"
 #import <SlideNavigationController.h>
 #import <AFNetworking/AFNetworking.h>
 
 @interface ViewController () <SlideNavigationControllerDelegate,UITableViewDataSource,UITableViewDelegate>
+{
+    NSString *urlString;
 
+}
 
 @end
 
@@ -26,10 +28,7 @@
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:UIBarMetricsDefault];
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]];
 
-    // Do any additional setup after loading the view, typically from a nib.
-    
-    
-//    [ setDrawerViewController:drawerViewController forDirection:MSDynamicsDrawerDirectionLeft];
+    self.hotProduct.selected = YES;
 
 }
 
@@ -54,7 +53,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 6;
+    return 3;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -70,8 +69,22 @@
 }
 
 -(void)getdata {
+    if (self.hotProduct.selected == YES) {
+        urlString = @"";
+    }
+    else if(self.LatestProduct.selected == YES) {
+        urlString = @"";
+    }
+    else if(self.latestActive.selected == YES) {
+        urlString = @"";
+    }
+    else if(self.couponProduct.selected == YES) {
+        urlString = @"";
+    }
+    
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager POST:@"http://catchup.today/api/v1/events" parameters:@{@"event_id":@"24"}
+    [manager POST:urlString parameters:nil
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
               NSLog(@"success");
               NSLog(@"response: %@", responseObject);

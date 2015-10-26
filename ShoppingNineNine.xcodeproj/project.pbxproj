@@ -14,6 +14,7 @@
 		221221F01BDDD0C100C5DFA7 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E71BDDD0C100C5DFA7 /* FriendsViewController.m */; };
 		221221F11BDDD0C100C5DFA7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221E91BDDD0C100C5DFA7 /* ProfileViewController.m */; };
 		221221F21BDDD0C100C5DFA7 /* ProfileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221EB1BDDD0C100C5DFA7 /* ProfileDetailViewController.m */; };
+		221221FC1BDE062100C5DFA7 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221221FB1BDE062100C5DFA7 /* Singleton.m */; };
 		22B171D31BDD2BB600F55A68 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B171D21BDD2BB600F55A68 /* MenuViewController.m */; };
 		22D03EF61BDBBE7800619656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EF51BDBBE7800619656 /* main.m */; };
 		22D03EF91BDBBE7800619656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D03EF81BDBBE7800619656 /* AppDelegate.m */; };
@@ -49,6 +50,8 @@
 		221221E91BDDD0C100C5DFA7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		221221EA1BDDD0C100C5DFA7 /* ProfileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDetailViewController.h; sourceTree = "<group>"; };
 		221221EB1BDDD0C100C5DFA7 /* ProfileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDetailViewController.m; sourceTree = "<group>"; };
+		221221FA1BDE062100C5DFA7 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		221221FB1BDE062100C5DFA7 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		22B171D11BDD2BB600F55A68 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
 		22B171D21BDD2BB600F55A68 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
 		22D03EF01BDBBE7800619656 /* ShoppingNineNine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingNineNine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +125,8 @@
 		22D03EE71BDBBE7800619656 = {
 			isa = PBXGroup;
 			children = (
+				221221FA1BDE062100C5DFA7 /* Singleton.h */,
+				221221FB1BDE062100C5DFA7 /* Singleton.m */,
 				221221EC1BDDD0C100C5DFA7 /* Helper Classes */,
 				22D03EF21BDBBE7800619656 /* ShoppingNineNine */,
 				22D03F0F1BDBBE7800619656 /* ShoppingNineNineTests */,
@@ -330,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221221FC1BDE062100C5DFA7 /* Singleton.m in Sources */,
 				221221F01BDDD0C100C5DFA7 /* FriendsViewController.m in Sources */,
 				22D03EFC1BDBBE7800619656 /* ShoppingNineNine.xcdatamodeld in Sources */,
 				22B171D31BDD2BB600F55A68 /* MenuViewController.m in Sources */,
