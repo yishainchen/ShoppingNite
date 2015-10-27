@@ -20,6 +20,8 @@
     // Do any additional setup after loading the view.
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:
+     UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {

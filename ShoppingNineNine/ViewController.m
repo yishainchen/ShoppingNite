@@ -17,6 +17,7 @@
     UILabel *introLabel;
     UILabel *priceLabel;
     UIImageView *imgPic;
+    UIButton *addFavorite;
     
 }
 
@@ -28,26 +29,18 @@
     [super viewDidLoad];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_sh99"]];
     
+
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:
      UIBarMetricsDefault];
     
-   
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]
-                                       forBarMetrics:UIBarMetricsDefault];
-    
     [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation"]];
-   
 
     self.hotProduct.selected = YES;
-    
     [self getdata];
 
 }
-
-
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -83,15 +76,23 @@
     }
     //tag UI
     introLabel = (UILabel *)[cell viewWithTag:1];
-    introLabel.tag = indexPath.row ;
+    introLabel.tag = indexPath.row;
     
     priceLabel = (UILabel *)[cell viewWithTag:2];
-    priceLabel.tag = indexPath.row ;
+    priceLabel.tag = indexPath.row;
     
     imgPic = (UIImageView *)[cell viewWithTag:3];
-    imgPic.tag = indexPath.row ;
+    imgPic.tag = indexPath.row;
+    
+    addFavorite = (UIButton *)[cell viewWithTag:5];
+    addFavorite.tag = indexPath.row;
+    [addFavorite addTarget:self action:@selector(Btnselected:) forControlEvents:UIControlEventTouchUpInside];
     
     return cell;
+}
+
+-(void)Btnselected:(UIButton *)sender {
+    sender.selected = !sender.selected;
 }
 
 -(void)getdata {

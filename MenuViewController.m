@@ -39,8 +39,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 16
-    ;
+    return 16;
 }
 
 //
